@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.mycompany</groupId>
+  <artifactId>photon</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>photon</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"><modelVersion>4.0.0</modelVersion><groupId>com.netflix.photon</groupId><artifactId>Photon</artifactId><version>4.2.5</version><dependencies><dependency><groupId>com.google.code.findbugs</groupId><artifactId>jsr305</artifactId><version>3.0.1</version><scope>runtime</scope></dependency><dependency><groupId>org.slf4j</groupId><artifactId>slf4j-api</artifactId><version>1.7.21</version><scope>runtime</scope></dependency><dependency><groupId>org.slf4j</groupId><artifactId>slf4j-log4j12</artifactId><version>1.7.21</version><scope>runtime</scope></dependency><dependency><groupId>com.sandflow</groupId><artifactId>regxmllib</artifactId><version>1.1.1</version><scope>runtime</scope></dependency></dependencies><name>Photon</name><description>Photon</description><licenses><license><name>The Apache Software License, Version 2.0</name><url>http://www.apache.org/licenses/LICENSE-2.0.txt</url><distribution>repo</distribution></license></licenses><developers><developer><id>netflixgithub</id><name>Netflix Open Source Development</name><email>netflixoss@netflix.com</email></developer></developers><properties><nebula_Manifest_Version>1.0</nebula_Manifest_Version><nebula_Implementation_Title>com.netflix.photon#Photon;4.2.5</nebula_Implementation_Title><nebula_Implementation_Version>4.2.5</nebula_Implementation_Version><nebula_Built_Status>integration</nebula_Built_Status><nebula_Built_By>travis</nebula_Built_By><nebula_Built_OS>Linux</nebula_Built_OS><nebula_Build_Date>2016-11-22_00:18:43</nebula_Build_Date><nebula_Gradle_Version>2.9</nebula_Gradle_Version><nebula_Module_Owner>netflixoss@netflix.com</nebula_Module_Owner><nebula_Module_Email>netflixoss@netflix.com</nebula_Module_Email><nebula_Module_Source/><nebula_Module_Origin>https://github.com/Netflix/photon.git</nebula_Module_Origin><nebula_Change>0691148</nebula_Change><nebula_Branch>06911488c072654926edb3813fd8561bf497e1e6</nebula_Branch><nebula_Build_Host>testing-docker-7f65cb59-bf3b-43f0-82f4-bb13260e418b</nebula_Build_Host><nebula_Build_Job>LOCAL</nebula_Build_Job><nebula_Build_Number>LOCAL</nebula_Build_Number><nebula_Build_Id>LOCAL</nebula_Build_Id><nebula_Created_By>1.8.0_31-b13 (Oracle Corporation)</nebula_Created_By><nebula_Build_Java_Version>1.8.0_31</nebula_Build_Java_Version><nebula_X_Compile_Target_JDK>1.8</nebula_X_Compile_Target_JDK><nebula_X_Compile_Source_JDK>1.8</nebula_X_Compile_Source_JDK></properties><url>https://github.com/Netflix/photon</url><scm><url>https://github.com/Netflix/photon.git</url></scm></project>
